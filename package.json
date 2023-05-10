@@ -4,6 +4,7 @@
   "description": "a github action to iterate over files and match regex",
   "main": "index.js",
   "scripts": {
+    "prepare": "ncc build src/index.js -o dist --minify",
     "test": "node index.js"
   },
   "repository": {
