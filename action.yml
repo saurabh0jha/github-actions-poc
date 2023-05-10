@@ -1,0 +1,6 @@
+name: "Iterative regex matcher"
+description: "Matches regexes and returns grouped counts"
+author: "Saurabh Ojha <sojha@rippling.com>"
+runs:
+  using: "node12"
+  main: "index.js"
