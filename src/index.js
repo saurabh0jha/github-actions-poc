@@ -22,8 +22,8 @@ const main = async () => {
     fileMatchCount[currentFilePath] = matches;
   }
 
-  console.log(totals);
-  console.log(fileMatchCount);
+  console.log({aggregateCounts: totals});
+  console.log({fileWiseCounts: fileMatchCount});
 };
 
 main();
