@@ -1,5 +1,5 @@
 const fs = require("fs");
-fs.readdirSync(".levels/").forEach(file => {
+fs.readdirSync("levels").forEach(file => {
     //Print file name
     console.log(file)
 
