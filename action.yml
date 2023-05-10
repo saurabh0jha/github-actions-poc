@@ -1,6 +1,11 @@
 name: "Iterative regex matcher"
 description: "Matches regexes and returns grouped counts"
 author: "Saurabh Ojha <sojha@rippling.com>"
+inputs:
+  folderPath:
+    description: 'root folder path for the files to search'
+    required: true
+    default: './'
 runs:
   using: "node16"
   main: "index.js"
